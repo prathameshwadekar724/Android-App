@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Menu">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/home"
+                    android:title="Home"
+                    android:icon="@drawable/round_home"/>
+                <item android:id="@+id/post"
+                    android:title="Create Post"
+                    android:icon="@drawable/round_add"/>
+                <item android:id="@+id/notification"
+                    android:title="Notification"
+                    android:icon="@drawable/round_notifications"/>
+                <item android:id="@+id/vList"
+                    android:title="List of volunteers"
+                    android:icon="@drawable/round_search"/>
+                <item android:id="@+id/oList"
+                    android:title="List of organisation"
+                    android:icon="@drawable/round_search"/>
+            </group>
+        </menu>
+
+    </item>
+    <item android:title="User Menu">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/profile"
+                    android:title="Profile"
+                    android:icon="@drawable/round_account_circle_24"/>
+                <item android:id="@+id/leaderboard"
+                    android:title="LeaderBoard"
+                    android:icon="@drawable/round_leaderboard"/>
+
+                <item android:id="@+id/logout"
+                    android:title="Logout"
+                    android:icon="@drawable/round_logout"/>
+
+            </group>
+        </menu>
+
+    </item>
+
+
+</menu>

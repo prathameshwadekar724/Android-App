@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/volback"
+    android:animateLayoutChanges="true"
+    tools:context=".activities.StartActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp">
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pic"
+                android:layout_marginTop="@dimen/_4sdp"
+                app:riv_corner_radius="@dimen/_8sdp"/>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:hint="@string/select_your_account_type"
+                android:layout_marginStart="@dimen/_5sdp"
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+                <AutoCompleteTextView
+                    android:id="@+id/textComplete"
+                    android:labelFor="@+id/textComplete"
+                    android:hint="@string/select_your_account_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:focusable="false"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_100sdp"
+            android:gravity="center_horizontal">
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:src="@drawable/start"
+                android:layout_marginStart="@dimen/_30sdp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/v_vibe"
+                android:textSize="@dimen/_50ssp"
+                android:textColor="@color/purple_700"
+                android:textStyle="bold"
+                android:layout_marginEnd="@dimen/_30sdp"
+                android:background="@drawable/profile_design"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_13sdp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/empowering_change_volunteer_for_a_better_tomorrow"
+                android:textStyle="bold"
+                android:textColor="@color/purple_700"
+                android:gravity="center"
+                android:textSize="@dimen/_15ssp"/>
+
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    
+</androidx.constraintlayout.widget.ConstraintLayout>

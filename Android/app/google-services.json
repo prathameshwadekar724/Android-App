@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "353669850115",
+    "firebase_url": "https://volunteermanagement-265f3-default-rtdb.firebaseio.com",
+    "project_id": "volunteermanagement-265f3",
+    "storage_bucket": "volunteermanagement-265f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353669850115:android:0aaf0c2dc72cdb92959a36",
+        "android_client_info": {
+          "package_name": "com.example.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPyvLtZCUAE5AQA2S6CDol1Y4BoTlC4Mo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353669850115:android:12c6191f68608ca0959a36",
+        "android_client_info": {
+          "package_name": "com.example.volunteermanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPyvLtZCUAE5AQA2S6CDol1Y4BoTlC4Mo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

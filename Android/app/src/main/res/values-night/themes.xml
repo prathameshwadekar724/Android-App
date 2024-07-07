@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Android" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/my_dark_primary</item>
+        <item name="colorPrimaryVariant">@color/my_dark_primary_variant</item>
+        <item name="colorOnPrimary">#000000</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+    <color name="icon_color">#FFFFFF</color>
+    <color name="post_background">#000000</color>
+    <style name="Theme.Android" parent="Base.Theme.Android">
+
+    </style>
+</resources>
